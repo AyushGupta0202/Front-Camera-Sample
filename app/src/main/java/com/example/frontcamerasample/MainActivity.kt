@@ -83,7 +83,7 @@ class MainActivity : ComponentActivity() {
     }
 
     fun openFrontCamera() {
-        Log.i("MainActivity", "openFrontCamera")
+        Log.i("MainActivity", "openFrontCamera:")
         val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         // Specify the front camera (if available)
 //        cameraIntent.putExtra("android.intent.extras.CAMERA_FACING", android.hardware.Camera.CameraInfo.CAMERA_FACING_FRONT)
